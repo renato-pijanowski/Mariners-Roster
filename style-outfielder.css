@@ -1,0 +1,116 @@
+/* https://www.mlb.com/mariners/roster */
+
+header {
+	background: #005C5C
+}
+
+.mariners-header{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 6px 6px
+}
+
+/* Ajustando Cabeçalho dos Jogadores */
+nav{
+	position: absolute;
+	top: 110px;
+	margin: -30px 70px;
+	right: 0;
+	font-size: 30px;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+main{
+	background:#C4CED4;
+	margin: 12px 0 0 0;
+}
+
+main h2{
+	position: absolute;
+	margin: 20px;
+	color: #0C2C56;;
+	font-weight: bold;
+	font-size: 46px;
+}
+
+.outfielders{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.outfielders li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+	margin: 5px 1.0%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px ridge black;
+	border-radius: 10px;
+}
+
+.outfielders li:hover{
+	border-color: red;
+}
+
+.outfielders li:active{
+	border-color: #0C2C56
+}
+
+.outfielders h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.outfielders-position{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.outfielders-hits{
+	font-size: 25px;
+}
+
+.outfielders-runs{
+	font-size: 25px;
+}
+
+.outfielders-rbi{
+	font-size: 25px;
+	font-weight: italic;
+}
+
+.outfielders-hr{
+	font-size: 25px;
+	font-weight: italic;
+}
+
+.outfielders-sb"{
+	font-size: 25px;
+	font-weight: italic;
+}
+
+footer{}
+
+.footer-detail{
+	background: #0C2C56;
+	text-align: center;
+	font-size: 20px;
+}
+
+.footer-color{
+	color: white;
+}
